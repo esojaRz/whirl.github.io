@@ -1,0 +1,62 @@
+.info__block { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 8rem 0;
+    flex-wrap: wrap;   
+}
+.title{
+    font-family: "Fraunces";
+}
+.info__block-title {
+    font-weight: normal;
+    font-size: 4.2rem;
+    line-height: 5.04rem;
+    letter-spacing: 0.02rem;
+}
+.info__block-link { 
+    
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    padding-right: 3.2rem;
+    color: var(--link-color);
+}
+.card__list {   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;   
+ }
+.card { 
+    width: 35.5rem;
+    height: 48.7rem;
+    background-color: #ffffff;  
+}
+.card__text{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.4rem;
+
+    height: 24.9rem;  
+    letter-spacing: 0.02rem;
+}
+.card__image {
+    width: 35.5rem;
+    height: 23.8rem;
+}
+.card__link { 
+    background-color: var(--background-link);
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 0.2rem 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+    color: var( --link-color);
+    letter-spacing: 0.04rem;   
+}
+.card__title { color: var(--text-color);
+font-size: 2.5rem;}
+.card__info {color: var(--text-color);
+font-size: 1.4rem;line-height: 1.96rem;}
+.card__date { color: var(--text-color);}
